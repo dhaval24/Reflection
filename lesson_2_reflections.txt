@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+    
+    Ans When you initlialize the git repository git makes a .git directory in the directory
+    which contains the configuration file. Initally git makes no commit and you are on the
+    master branch.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+    
+    Ans Staging area is a buffer area which is temporaryily used to hold the files which are ready to be commited
+    and allows user to cross verify it before performing the final commit. The changes made in the staging area 
+    can easily be reverted without any problem.
