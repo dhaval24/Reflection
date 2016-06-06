@@ -9,3 +9,18 @@ How is the staging area different from the working directory and the repository?
     Ans Staging area is a buffer area which is temporaryily used to hold the files which are ready to be commited
     and allows user to cross verify it before performing the final commit. The changes made in the staging area 
     can easily be reverted without any problem.
+
+How can you use the staging area to make sure you have one commit per logical change?
+    
+    Ans we can add multiple files which have same logical connection into the stagging area and then commit them at once making
+    the commit a logical block.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+    Ans It is helpful when you want to develop or test some new feature outside the original environment or develop the 
+    same software for different language or compatibility. Whenever you are moving to a new piece of work you create a 
+    new branch.
+
+How do the diagrams help you visualize the branch structure?
+
+    Ans Diagrams help me visualize the branch structure and know exactly which commits are can be recovered. It is a handy tool.
