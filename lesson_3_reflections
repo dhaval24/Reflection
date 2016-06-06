@@ -19,3 +19,13 @@ Describe the differences between forks, clones, and branches. When would you use
 What is the benefit of having a copy of the last known state of the remote stored locally?
     
     Ans. This helps in merging two branches using git pull or git merge to attain a consistant state.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+    
+    Ans. I would have used some different version control system but I think so it would be really hard to work without git.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+    
+    Ans. When I am working on creating a new feature or I am just experimenting it is great to work on the new branch rather than
+    working direcly on the master as it is your production branch. I would recommend working on a seperate branch creating pull request
+    getting comments and then merging the branch into the master to keep master as safe as possible.
